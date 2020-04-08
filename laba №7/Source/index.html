@@ -4,18 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- icons awesome -->
   <script src="https://kit.fontawesome.com/05bac76c40.js" crossorigin="anonymous"></script>
 
-  <!-- bootstrap css -->
 
-  <!-- Подключка стилей -->
   <link rel="stylesheet" href="css/style.css" />
   <title>Document</title>
 </head>
 
 <body>
-  <!-- navbar -->
   <header id="home">
     <nav>
       <div class="container">
@@ -48,7 +44,7 @@
       </div>
     </nav>
   </header>
-  <!-- showcase -->
+
   <section id="showcase">
     <div class="container">
       <div class="main__showcase">
@@ -207,23 +203,7 @@
       </form>
     </div>
   </footer>
-  <script type="text/javascript">
-    document.getElementById("subscribeInput").value = getSavedValue("subscribeInput");
-    document.getElementById("txt_2").value = getSavedValue("txt_2");
-
-    function saveValue(e) {
-      var id = e.id;
-      var val = e.value;
-      localStorage.setItem(id, val);
-    }
-
-    function getSavedValue(v) {
-      if (!localStorage.getItem(v)) {
-        return "";
-      }
-      return localStorage.getItem(v);
-    }
-  </script>
+  <script src="script.js"></script>
 
 </body>
 
