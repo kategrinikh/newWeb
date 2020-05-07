@@ -1,0 +1,19 @@
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 15px;
+}
+
+#last-update {
+    text-align: center;
+    margin: 50px auto;
+}
